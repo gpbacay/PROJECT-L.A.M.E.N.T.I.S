@@ -30,4 +30,5 @@ def factory():
     return llm_chain
 
 
+
 #___________________________chainlit run lamentis1.py -w
