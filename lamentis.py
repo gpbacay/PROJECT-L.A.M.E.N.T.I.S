@@ -1,4 +1,4 @@
-header = "Language-based Artificial-Intelligence Model with Enhanced Natural-language-processing and Text-based Intelligent System"
+header = "Local Assistant Model with Enhanced Natural-language-processing and Text-based Intelligent System"
 print(header)
 
 #openAI_api_key = "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"
@@ -49,7 +49,7 @@ def run_lamentis():
     falcon_llm = HuggingFaceHub(repo_id=repo_id, model_kwargs={"temperature": 0.1, "max_new_tokens": 500})
 
     
-    template = """Your name is LAMENTIS, a short term for Language-based Artificial-Intelligence Model with Enhanced Natural-language-processing and Text-based Intelligent System. 
+    template = """Your name is LAMENTIS, a short term for Local Assistant Model with Enhanced Natural-language-processing and Text-based Intelligent System. 
     You are an Artificial Intelligence Personal Virtual Assistant created by Gianne P. Bacay.
 
     Question: {question}"""
